@@ -2,5 +2,5 @@
     "watch": ["bin"],
     "ext": ".ts,.js",
     "ignore": [],
-    "exec": "npx ts-node ./bin/index.ts"
+    "exec": "npx ts-node ./src/index.ts"
 }

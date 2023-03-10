@@ -2,7 +2,7 @@
   "name": "lutris-art",
   "version": "1.0.0",
   "description": "Lutris banner art downloader tool ",
-  "main": "./src/index.js",
+  "main": "./build/index.js",
   "bin": {
     "lutris-art": "./build/index.js"
   },
