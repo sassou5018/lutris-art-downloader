@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "Lutris banner art downloader tool ",
   "main": "./src/index.js",
+  "bin": {
+    "lutris-art": "./build/index.js"
+  },
   "scripts": {
     "dev": "nodemon",
     "build": "rimraf ./build && tsc",
