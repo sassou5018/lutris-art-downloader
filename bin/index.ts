@@ -1,3 +1,4 @@
+#! /usr/bin/env node
 import os from "os";
 import fs, { close } from "fs";
 import sqlite3 from "sqlite3";
