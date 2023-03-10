@@ -6,6 +6,7 @@ Simply scans Lutris' local sqlite db (``/home/$USER/.local/share/lutris/pga.db``
 > steamgridDb is limited so i'm downloading PNGs then using
 > [jimp](https://www.npmjs.com/package/jimp) to convert them to jpg
 
+___
 ### How to use:
 Grab and API Key from [steamGridDb's API](https://www.steamgriddb.com/api/v2).
 Add a .env file with the variable API_KEY
@@ -22,7 +23,7 @@ build the app and run or just run it in development mode using nodemon
     npm start //to build and start
     or
     npm run dev //to run in development
-
+___
 #### TODO:
  - [ ] Add Icon Download support
  - [ ] Turn it into an NPX cli tool
